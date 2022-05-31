@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --btn-background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 2rem;
+}
+
+.color-text {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#btn {
+    display: block;
+    background-color: var(--btn-background-color);
+    font-size: 1.2rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    box-shadow: 0.1em 0.1em gray;
+}
+
+#btn:active {
+    transform: translate(0.1em, 0.1em);
+    box-shadow: none;
+}
+#btn:hover {
+    background-color: lightblue;
+}
